@@ -13,8 +13,8 @@
 ## Сборка
 
 ```bash
-./build.sh                    # → ~/Applications/DualSense Battery.app + ~/.local/bin/dualsense-battery
-open ~/Applications/DualSense\ Battery.app
+./build.sh                    # → /Applications/DualSense Battery.app + ~/.local/bin/dualsense-battery
+open /Applications/DualSense\ Battery.app
 dualsense-battery --once      # разово в терминал (exit 1, если геймпадов нет)
 ```
 

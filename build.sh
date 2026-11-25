@@ -1,10 +1,10 @@
 #!/bin/bash
-# Собирает «DualSense Battery.app» в ~/Applications и CLI-симлинк в ~/.local/bin.
+# Собирает «DualSense Battery.app» в /Applications и CLI-симлинк в ~/.local/bin.
 # Разрешений (TCC) GameController не требует, поэтому хватает ad-hoc подписи.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP="$HOME/Applications/DualSense Battery.app"
+APP="/Applications/DualSense Battery.app"
 BIN_DIR="$HOME/.local/bin"
 EXE=dualsense-battery
 ID=com.geforester.dualsense-battery
